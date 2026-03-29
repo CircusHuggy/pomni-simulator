@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v4.0.12/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.0","target":"arcade","targetVersion":"4.0.12"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v4.0.12/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.1","target":"arcade","targetVersion":"4.0.12","repo":"circushuggy/pomni-simulator"}
 // total=1786339 new=3.04% cached=67.38% other=29.58%
 (function (ectx) {
 'use strict';
@@ -482,7 +482,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P19200(s) {
+function _main___P19233(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -975,13 +975,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P19200.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P19200.continuations = [  ]
+_main___P19233.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P19233.continuations = [  ]
 
-function _main___P19200_mk(s) {
+function _main___P19233_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P19200, depth: s.depth + 1,
+        parent: s, fn: _main___P19233, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -45669,5 +45669,5 @@ const sprites_BaseSpriteSayRenderer__C2276_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___4434","Evil_Caine___4430","Pomni___4431","Jax___4429"])
 
-return _main___P19200
+return _main___P19233
 })
